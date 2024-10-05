@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Timer</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+  <body>
+    <h1>Timer</h1>
+
+    <form
+      action="#"
+      method="get"
+    >
+      <div>
+        <input
+          type="number"
+          name="minutes"
+          placeholder="Minutes"
+          min="0"
+          max="59"
+          step="1"
+        />
+        <input
+          type="number"
+          name="seconds"
+          placeholder="Seconds"
+          min="0"
+          max="59"
+          step="1"
+        />
+      </div>
+      <button
+        class="js-addBtn"
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+
+    <script
+      type="module"
+      src="main.js"
+    ></script>
+  </body>
+</html>
